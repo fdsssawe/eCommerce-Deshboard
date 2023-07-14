@@ -12,6 +12,7 @@ export default async function SetupLayout({
         redirect("/sing-in")
     }
 
+
     const store = await prismadb.store.findFirst({
         where:{
             userId,
