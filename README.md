@@ -12,7 +12,7 @@ Vercel, PlanetScale
 
 # 🔧 How to run a project localy
 ### Dependencies recovery
-Since node_modules are not in repository , you need to recover node_module for both client and server. You can do it with `npm i`
+Since node_modules are not in repository , you need to recover it. You can do it with `npm i`
 ### To start application
 Start with `npm run dev`
 ### Environment variable that you have to provide
