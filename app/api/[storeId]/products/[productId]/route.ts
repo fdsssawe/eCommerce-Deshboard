@@ -54,7 +54,7 @@ export async function PATCH(
             return new NextResponse("Name is required" , {status : 400})
         }
 
-        if(!images || !images.lenght){
+        if(!images[0]){
             return new NextResponse("Images is required" , {status : 400})
         }
 
