@@ -1,4 +1,4 @@
-# <a href="" target="_blank">Dashboard</a>
+# <a href="https://e-commerce-deshboard.vercel.app" target="_blank">Dashboard</a>
 The dashboard to control products, billboards, orders etc. in eCommerce websites<br/>
 
 # 🛠️ Stack 
@@ -24,6 +24,9 @@ Create `.env` file and provide following variables :
 * NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/ : route where you will be redirected after sign-in
 * DATABASE_UR : url you will get after creating database at PlanetScale
 * NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME : name you will be able to find in your cloudinary dashboard after you sign-up/sign-in
+* FRONTEND_STORE_URL : url of your frontend
+* STRIPE_API_KEY = stripe api <a href="https://dashboard.stripe.com/test/webhooks" target="_blank">secret key</a>.
+* STRIPE_WEBHOOK_SECRET = webhook secret key that you can get key <a href="https://dashboard.stripe.com/test/webhooks" target="_blank">here</a>
 
 # Contacts :<br/>
 📨 <a href="mailto:zhovanukolexander@gmail.com">Email</a><br/>
